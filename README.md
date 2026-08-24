@@ -1,6 +1,7 @@
 ScreenSense AI: Automated Smartphone Screen Defect Detection
 
 Project Overview
+
 ScreenSense AI is an end-to-end automated optical inspection (AOI) solution designed to democratize cosmetic quality assurance for the secondary smartphone and repair market. By replacing error-prone, subjective manual inspection with modern computer vision, the platform delivers high-accuracy defect localization and automated digital condition verification.
 
 AI & Detection Architecture
