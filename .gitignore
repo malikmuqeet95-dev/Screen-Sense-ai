@@ -17,8 +17,6 @@ venv.bak/
 */.ipynb_checkpoints/*
 
 # PyTorch / Deep Learning Weights & Large Artifacts (>100MB)
-*.pt
-*.pth
 *.onnx
 *.engine
 *.bin
