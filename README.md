@@ -24,7 +24,7 @@ Benchmark & Evaluation Metrics
  System Architecture & Responsibilities
 
  AI Intelligence Layer
-- Lead Developer: Malik Muqeet | Data Engineering & AI Architecture
+- Lead Developer: Malik Muqeet | Data Engineering, AI Baseline & YOLOv12 Pipeline only
 - Dataset Pipeline: Dataset aggregation, multi-source pooling, labeling, and preprocessing.
 - Model Training: YOLOv12-L fine-tuning, hyperparameter optimization, and class-imbalance mitigations.
 - Microservice: Standalone Python/Flask engine containerized with Docker for GPU/CPU acceleration.
