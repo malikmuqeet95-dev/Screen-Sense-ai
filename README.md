@@ -12,13 +12,16 @@ AI & Detection Architecture
 - AI Microservice: Python/Flask engine containerized with Docker and deployed for isolated GPU/CPU inferencing.
 
 Benchmark & Evaluation Metrics
-Trained and evaluated on the curated 2,000+ smartphone screen defects dataset[cite: 1]:
 
- Class     Images  Instances    Box(P)       R          mAP50     mAP50-95
-  all        302        424      0.906      0.905      0.928      0.762
-  dot         59        162      0.801      0.833      0.863      0.497
-scratch       55        216       0.96       0.88       0.93      0.832
- crack        46         46      0.958          1       0.99      0.956
+Trained and evaluated on the curated 2,000+ smartphone screen defects dataset:
+
+OVERALL SUMMARY METRICS
+
+Overall mAP50:    0.9276
+Overall mAP50-95: 0.7618
+Mean Precision:   0.9063
+Mean Recall:      0.9046
+Model Fitness:    0.7618
 
 - Inference Speed: ~25.9 ms per image
 - Preprocessing / Postprocessing: ~1.2 ms / ~0.5 ms
