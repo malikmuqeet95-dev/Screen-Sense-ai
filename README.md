@@ -13,15 +13,11 @@ AI & Detection Architecture
 
 Benchmark & Evaluation Metrics
 
-Trained and evaluated on the curated 2,000+ smartphone screen defects dataset:
-
-OVERALL SUMMARY METRICS
-
-Overall mAP50:    0.9276
-Overall mAP50-95: 0.7618
-Mean Precision:   0.9063
-Mean Recall:      0.9046
-Model Fitness:    0.7618
+- Overall mAP50:    0.9276
+- Overall mAP50-95: 0.7618
+- Mean Precision:   0.9063
+- Mean Recall:      0.9046
+- Model Fitness:    0.7618
 
 - Inference Speed: ~25.9 ms per image
 - Preprocessing / Postprocessing: ~1.2 ms / ~0.5 ms
